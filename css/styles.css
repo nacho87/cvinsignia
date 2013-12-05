@@ -1,0 +1,69 @@
+body{
+	
+	font-family: 'Enriqueta', serif;
+	font-size: 16px;
+  	
+	background: url('../img/fondo.gif') repeat;
+
+}
+
+/*.row-fluid footer{
+	vertical-align: bottom;
+	margin-bottom: 0;
+	width: 100%;
+	background: #000000;
+	
+	display: block;
+	bottom: 0px;
+	padding-top: 20px;
+}
+*/
+#perfil{
+	box-shadow: 3px 5px 10px #7f8c8d; 
+}
+
+#datos,#experiencia,#referencias{
+	border:2px solid #EC1A8D;
+	border-radius: 0.5em 0;
+	box-shadow: 3px 5px 10px #EC1A8D; 
+	margin-bottom: 1em;
+	padding: 1em;
+
+}
+/*#referencias{
+	margin-bottom: 5em;
+}*/
+
+.navbar .navbar-inner .brand{
+	color:#ecf0f1;
+}
+
+.navbar .navbar-inner .brand:hover{
+	color:#bdc3c7;
+}
+
+
+.parentesisa:before{
+	content: "(";
+	color: #EC1A8D;
+
+}
+
+
+.parentesiso:after{
+	content: ")";
+	color: #EC1A8D;
+}
+
+footer
+{
+	background: #434343;
+	color: #A7A7A7;
+	padding: 1em 0;
+	text-align: center;
+	width: 100%;
+}
+footer p
+{
+	margin: 0;
+}
